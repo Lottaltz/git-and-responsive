@@ -80,7 +80,8 @@ body {
 }
 @media only screen and (max-width: 425px) {
   .main {
-    flex-direction: column;
+    display: flex;
+    flex-direction: column-reverse;
   }
 
   .navbar {
