@@ -6,13 +6,21 @@ body {
 
 /* Navbar Styles */
 .navbar {
+  width: 100%;
   background-color: #333;
   overflow: hidden;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
 }
-
+.navbar img{
+  padding-right:16px;
+}
 .navbar a {
-  display: block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: canter;
   color: white;
   text-align: center;
   padding: 14px 16px;
